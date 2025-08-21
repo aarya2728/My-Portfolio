@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> </head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+                <div class="header-text">
+                <h1>Hello, I'm <span class="highlight">Aarya Kale. </span></h1>
+                <p>Blockchain Technology Student & Web Developer.</p>
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="section-content">
+           <div class="center">
+            <h2>About Me</h2>
+            <p>Hello! I'm Aarya Kale, a passionate web developer eager to create beautiful and functional websites. I love problem-solving and am always learning new technologies. I'm excited to collaborate on innovative projects and contribute to a dynamic team.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-content">
+        <div class="center">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <div class="project">
+                    <img src="project1-image.jpg" alt="Project 1 Image">
+                    <h3>Project 1: Power BI dashboard</h3>
+                    <p>Developed this portfolio website to showcase my skills and projects. Utilized HTML, CSS, and JavaScript for front-end development, focusing on responsive design and user experience. The project highlights my ability to create visually appealing and functional web applications.</p>
+                    <a href="C:\Users\ASUS\OneDrive\Pictures\OneDrive\Documents\dashboard.pbix" target="_blank">View Project <i class="fas fa-arrow-right"></i></a> 
+                </div>
+                <div class="project">
+                    <img src="project2-image.jpg" alt="Project 2 Image"> 
+                    <h3>Project 2: E-commerce Website (Mockup)</h3>
+                    <p>Designed and prototyped a mock e-commerce website, incorporating features like product listings, shopping carts, and user authentication. This project demonstrates my understanding of e-commerce principles and my ability to create user-friendly interfaces. Technologies explored include HTML, CSS, JavaScript, and a basic understanding of backend integration concepts.</p>
+                    <a href="C:\Users\ASUS\OneDrive\Pictures\OneDrive\Desktop\Output\log-in page.html" target="_blank">View Project <i class="fas fa-arrow-right"></i></a> 
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-content">
+        <div class="center">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <h3>HTML & CSS</h3>
+                    <p>Proficient in creating responsive and visually appealing web layouts.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Power BI</h3>
+                    <p>Experienced in data visualization and creating interactive dashboards.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>C/C++</h3>
+                    <p>Strong foundation in programming with C and C++.</p>
+                </div>
+                </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="center">
+        <h2>Contact</h2>
+        <form action="mailto:aryakale1052@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        </div>
+        <div class="center">
+        <p>feel free to reach out!</p>
+    
+          <a href="https://github.com/aarya2728" target="_blank">
+            <img src="C:\Users\ASUS\Downloads\icons8-github-48.png"  alt="Github Logo" width="65">
+           </a>
+            <a href="https://www.linkedin.com/in/arya-kale-976354321/" target="_blank">
+              <img src="C:\Users\ASUS\Downloads\icons8-linkedin-48.png"  alt="Email Logo" width="50">
+            </a>
+        </a>
+        </div> 
+    </section>     
+
+    <footer>
+        <p>&copy; 2025 My Portfolio</p>
+    </footer>
+</body>
+</html>
+
+
+<style>
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    overflow-x: hidden; 
+}
+
+header {
+    background-color: rgba(18, 18, 18, 0.9);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+.header-content {
+    display: flex;
+    align-items: center;
+}
+.header-text {
+    text-align: left; 
+    margin-right: 20px; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: 700; 
+}
+
+nav a:hover {
+    color: #1d7175;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 10px;
+}.highlight {
+    color: #1ab1c5;
+}
+
+
+section {
+    background-color: rgba(24, 24, 24, 0.9);
+    padding: 60px;
+    margin: 120px 0; 
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}.section-content {
+    max-width: 900px; 
+    margin: 0 auto; 
+}
+
+h2 {
+    color: #ddd;
+    border-bottom: 3px solid #00bfff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 20px;
+}.project {
+    background-color: #202020;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(180, 185, 193, 0.2);
+}.project img {
+    max-width: 100%;
+    height: 50px ;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}.project h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}.project p {
+    color: #e0e0e0;
+}
+.center {
+  text-align: center;
+  border: none;
+}
+
+/* Skills Styles */
+#skills .ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#skills .li {
+    background-color: #00bfff;
+    color: #121212;
+    margin: 5px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#skills .li:hover {
+    background-color: #0c77a9;
+    color: #e0e0e0;
+}
+#skills .container  {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 10px;
+    justify-content: center;
+}
+#skills .skill-card {
+    background-color: #202020;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+#skills .skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(180, 185, 193, 0.2);
+}
+
+ #skills .skill-card h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#skills .skill-card p {
+    color: #e0e0e0;
+}
+.center {
+  text-align: center;
+  border: none;
+}
+
+
+/*Contact*/
+#contact {
+    background-color: rgba(24, 24, 24, 0.85);
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px; 
+    margin: 0 auto; 
+}
+
+#contact input,
+#contact textarea {
+    background-color: #282828;
+    color: #e0e0e0;
+    border: 1px solid #444;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    border-color: #00bfff;
+    box-shadow: 0 0 5px rgba(6, 66, 71, 0.3);
+}
+
+#contact button {
+    background-color: #00bfff;
+    color: #121212;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#contact button:hover {
+    background-color: #097298;
+    color: #e0e0e0;
+}
+
+.center {
+  text-align: center;
+  border: none;
+}
+
+
+footer {
+    background-color: #181818;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+  .header-text {
+        margin-bottom: 20px; 
+    }
+
+    nav ul {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    nav li {
+        margin: 10px 0; 
+    }
+
+  .projects-container {
+        grid-template-columns: 1fr; 
+    }
+}
+</style>
